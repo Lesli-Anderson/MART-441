@@ -3,7 +3,7 @@ body {
   background-color: rgb(185, 179, 175);
 }
 h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(245, 79, 209);
   text-align: left;
 }
 h2 {
@@ -21,7 +21,7 @@ html {
       rgba(0, 255, 255, 0.5),
       rgba(39, 2, 61, 0.5)
     ),
-    url("lesli.jpg");
+    url("../HW1/Images/brian-mcgowan-DsYv1KJHrlE-unsplash.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -35,10 +35,20 @@ html {
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: white;
+}
+img {
+  border-radius: 8px;
+}
+image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  max-width: 100%;
+  height: auto;
 }

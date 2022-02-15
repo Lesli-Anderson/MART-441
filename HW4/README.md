@@ -1,6 +1,4 @@
-Not Complete. Need to finish still. 2/14/22
-
-Getting the hang of JS more and more.
+Getting the hang of JS more and more. I am starting to get caught up with all my work and I am hoping to spend some extra time this week to increase the implementation of what we have been learning.
 
 Produce Photo
 Photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NeONBRAND</a> on <a href="https://unsplash.com/s/photos/grocery-store?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

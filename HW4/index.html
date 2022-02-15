@@ -4,13 +4,14 @@
             // background-color: rgb(255, 166, 49);
             background-image: linear-gradient(rgba(0, 255, 255, 0.5),rgba(39, 2, 61, 0.5));
         }
+       
     </style>
     <script>
         function getChoice1()
         {
             var myChoice = document.getElementById("choice").value;
             var myQuestion = document.getElementById("question");
-            if(myChoice === "Go left") //change 
+            if(myChoice === "Go left")
             {
                 document.getElementById("choice").style.display="none";
                 document.getElementById("btnSubmit").style.display="none";
@@ -44,11 +45,11 @@
             if(answer === "yes")
             {
                 document.getElementById("mainImage").src = "produce-unshplash.jpg"
-                myQuestion.innerHTML = "Thank you for your kindness!";
+                myQuestion.innerHTML = "Great, grab what you need.";
             }
             else if(answer === "no")
             {
-                myQuestion.innerHTML = "Please remember we are all in this together.";
+                myQuestion.innerHTML = "Oh no. Turn around to come back the way you came.";
             }
         }
 
@@ -58,12 +59,12 @@
             var myQuestion = document.getElementById("question");
             if(answer === "yes")
             {
-                document.getElementById("mainImage").src = "deli-bakery-unspash.jpg"
-                myQuestion.innerHTML = "Thank you for your kindness!";
+                document.getElementById("mainImage").src = "/HW4/Images/deli-bakery-unspash.jpg"
+                myQuestion.innerHTML = "Great, gather the items you needed.";
             }
             else if(answer === "no")
             {
-                myQuestion.innerHTML = "Please remember we are all in this together.";
+                myQuestion.innerHTML = "Darn it. Turn around to come back the way you came.";
             }
         }
     </script>
@@ -71,7 +72,7 @@
 
         <h1>Sunshine Mart</h1>
         <br>
-        <img src="shoppingCart-unsplash" id="mainImage">
+        <img src="/HW4/Images/shoppingCart-unsplash.jpg" id="mainImage"> //change image size
     <div id="question">
     <br>
     You are at the grocery store heading through the entry.

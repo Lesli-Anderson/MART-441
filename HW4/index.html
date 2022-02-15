@@ -1,7 +1,7 @@
 <html>
     <style>
         body{
-            background-color: bisque;
+            background-color: rgb(0, 116, 77);
         }
     </style>
     <script>
@@ -9,7 +9,7 @@
         {
             var myChoice = document.getElementById("choice").value;
             var myQuestion = document.getElementById("question");
-            if(myChoice === "Green")
+            if(myChoice === "Go left") //change 
             {
                 document.getElementById("choice").style.display="none";
                 document.getElementById("btnSubmit").style.display="none";
@@ -18,16 +18,16 @@
                 document.getElementById("btnSubmit2").style.display="block";
                 
 
-                myQuestion.innerHTML = "Green is a great choice. Is the color of generosity. Would you be willing to give food to those in need?";
+                myQuestion.innerHTML = "Go left    is a great choice. Is the color of generosity. Would you be willing to give food to those in need?"; //change
             }
-            else if(myChoice === "Blue")
+            else if(myChoice === "Go right")
             {
                 document.getElementById("choice").style.display="none";
                 document.getElementById("btnSubmit").style.display="none";
                 
                 document.getElementById("choice3").style.display="block";
                 document.getElementById("btnSubmit3").style.display="block";
-                myQuestion.innerHTML = "Blue is the color of loyalty and sincerity.  Are you willing to show up and stand by those who need a friend?";
+                myQuestion.innerHTML = "Go right  Are you willing to show up and stand by those who need a friend?"; //change
 
             }
             else
@@ -73,15 +73,16 @@
         <img src="tree.jpeg" id="mainImage">
     <div id="question">
     <br>
-        It was a dark and lonely time in Bob's life. He was wandering aimlessly and wondering where to go.
-        <br>
-        He came upon a tree and it asked him what his favorite color was.
-        <br>
-        He had only two choices.  It was Green or Blue.
+    You are at the grocery store heading through the entry.
+    <br>
+    You come to a T in the street.
+    <br>
+    Which way do you go? Go left? Go Right?
+      
     </div>
        
         <br>
-        <input type="text" size="30" id="choice" value="Please enter Green or Blue">
+        <input type="text" size="30" id="choice" value="Please enter Go left or Go right">
         <button id="btnSubmit" onclick="getChoice1();">Click to continue</button>
 
         <input type="text" size="30" id="choice2" value="Enter yes or no." style="display:none">

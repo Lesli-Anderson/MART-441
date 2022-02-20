@@ -20,12 +20,12 @@ body {
   padding: 3px 10px;
 }
 .divTableHeading {
-  background-color: #eee;
+  background-color: rgb(199, 206, 247);
   display: table-header-group;
   font-weight: bold;
 }
 .divTableFoot {
-  background-color: #eee;
+  background-color: rgb(182, 84, 247);
   display: table-footer-group;
   font-weight: bold;
 }

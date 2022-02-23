@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: rgb(144, 198, 255);
 }
 
 .divTable {
@@ -10,7 +10,7 @@ body {
   display: table-row;
 }
 .divTableHeading {
-  background-color: #eee;
+  background-color: rgb(123, 176, 255);
   display: table-header-group;
 }
 .divTableCell,
@@ -25,7 +25,7 @@ body {
   font-weight: bold;
 }
 .divTableFoot {
-  background-color: rgb(182, 84, 247);
+  background-color: rgb(84, 149, 247);
   display: table-footer-group;
   font-weight: bold;
 }

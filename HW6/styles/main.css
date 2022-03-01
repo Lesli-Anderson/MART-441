@@ -4,7 +4,7 @@ body {
 
 .divTable {
   display: table;
-  width: 100%;
+  width: 25%;
 }
 .divTableRow {
   display: table-row;
@@ -15,12 +15,12 @@ body {
 }
 .divTableCell,
 .divTableHead {
-  border: 1px solid #999999;
+  border: 0px solid #999999;
   display: table-cell;
   padding: 3px 10px;
 }
 .divTableHeading {
-  background-color: rgb(199, 206, 247);
+  background-color: rgb(0, 12, 80);
   display: table-header-group;
   font-weight: bold;
 }

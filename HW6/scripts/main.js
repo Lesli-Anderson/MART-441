@@ -50,8 +50,6 @@ function createRandomImageArray()
         }
     }
     
-  
-    
     
         
 }
@@ -63,4 +61,59 @@ function flipImage(number)
         // the image based on what number was pressed
         
     
+}    // make the second image appear
+if(firstNumber >= 0)
+{
+    secondNumber = number;
+    document.getElementById(imageTags[number]).src = actualImages[secondNumber];
+    
 }
+else if(firstNumber < 0) // make the first image appear
+{
+    firstNumber = number;
+    document.getElementById(imageTags[firstNumber]).src= actualImages[firstNumber];
+
+}
+
+// check to see if the images do not match
+if(actualImages[secondNumber] != actualImages[firstNumber] && firstNumber >= 0 && secondNumber >= 0)
+{
+    setTimeout(imagesDisappear, 1000); // calls a method after 1 second
+}
+// check to see if the images do match
+else if(actualImages[secondNumber] == actualImages[firstNumber] && firstNumber >= 0 && secondNumber >= 0)
+{
+    firstNumber = -1;
+    secondNumber = -1;
+}
+
+
+
+}
+
+function imagesDisappear()
+{
+
+console.log(firstNumber);
+document.getElementById(imageTags[firstNumber]).src = blankImagePath;
+document.getElementById(imageTags[secondNumber]).src = blankImagePath;
+firstNumber = -1;
+secondNumber = -1;
+}
+
+// add to the JSON from the textboxes
+function addToPlayer()
+{
+var firstName = document.getElementById("txtFirstName").value;
+//console.log(firstName);
+player.firstname = firstName;
+localStorage.setItem("playerInfo", JSON.stringify(player));
+window.location = "HWExample.html";
+}
+
+// get the information out of JSON
+function playerInfo()
+{
+var playerInformation = localStorage.getItem("playerInfo");
+player = JSON.parse(playerInformation);
+console.log(player.firstname);

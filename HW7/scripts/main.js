@@ -35,6 +35,8 @@ class ViewFinder {
 
 // this function is called in the body of the HTML page so that the objects are created and added to the
 // array myViewFinderArray
+// I think this is where I need to add my imagePath
+
 function initializeArray() {
   // create the first object from the class ViewFinder
   var myViewFinder = new ViewFinder("Invisible No More");

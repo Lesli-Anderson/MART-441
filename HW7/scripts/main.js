@@ -7,17 +7,29 @@ class ViewFinder {
   // we will create multiple objects from this class
   constructor(title) {
     this.title = title;
+    //this.author = author;
+    //this.description;
+    //this.year = year;
+    //this.imagePath = imagePath;
   }
 
   // this just returns the title concatenated with the string "Title"
   // keep in mind only one return statement can exist in a function
   toString() {
     return "Title: " + this.title;
+    //return "Author" + this.author;
+    //return "Description" + this.description;
+    //return "Year" + this.year;
+    //return "imagePath" + this.imagePath;
   }
 
   // this is the property theTitle which returns the title as well only the title
   get theTitle() {
     return this.title;
+    //return this.author;
+    //return this.description;
+    //return this.year;
+    // return this.imagePath;
   }
 }
 

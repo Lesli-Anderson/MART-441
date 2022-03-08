@@ -19,3 +19,11 @@ Global Indigenous Council's Billboard image for their MMIW Campaign
 https://www.globalindigenouscouncil.com/missing-murdered-p1
 
 <img src= "images/JermainMissingPoster.jpg">
+Case Warriors For The Missing/Facebook
+Missing Woman Jermain Austin Charlo
+https://www.facebook.com/CaseWarriorsForTheMissing/
+
+<img src="images/MMIWartInstallation.jpg">
+ELIZABETH FLORES, STAR TRIBUNE
+An art installation from Artists C3 was placed in front of the Capitol for Missing and Murdered Indigenous Women and Girls Awareness Day at the Minnesota Capitol in St. Paul, on May 5, 2021.
+https://www.startribune.com/the-effort-to-end-violence-against-indigenous-women-and-girls-one-year-later/600117077/

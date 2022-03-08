@@ -37,13 +37,13 @@ class ViewFinder {
 // array myViewFinderArray
 function initializeArray() {
   // create the first object from the class ViewFinder
-  var myViewFinder = new ViewFinder("Invisible No More" + ");
+  var myViewFinder = new ViewFinder("Invisible No More");
   // create a second object from the class ViewFinder
   var myViewFinder1 = new ViewFinder("Jermaine is Still Missing");
   // create a third object from the class ViewFinder
   var myViewFinder2 = new ViewFinder("She is Missing");
   // create a fourth object from the class ViewFinder"
-  var myViewFinder3 = new ViewFinder("Ignorance");
+  var myViewFinder3 = new ViewFinder("Ripple of Loss");
   // create a fifth object from the class ViewFinder
   var myViewFinder4 = new ViewFinder("MMIW Art Installation");
 

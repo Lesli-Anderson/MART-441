@@ -1,4 +1,4 @@
-Again images continue to be my issue. I am not sure where to inster them in to the code.
+Again images continue to be my issue. I am not sure where to incert them in the code.
 
 Images and Content to add
 

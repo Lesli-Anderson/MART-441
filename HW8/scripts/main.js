@@ -20,7 +20,7 @@ class DogInfo {
 }
 
 function initializeArray() {
-  var dog = new DogInfo("#dog", "images/dog.jpg");
+  var dog = new DogInfo("#dog", "images/puppy-1047521_640.jpg");
   allDogs.push(dog);
 }
 $(document).ready(function () {

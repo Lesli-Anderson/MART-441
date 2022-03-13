@@ -1,22 +1,22 @@
 #square {
   width: 100px;
   height: 100px;
-  background: red;
+  background: rgb(255, 196, 0);
   position: absolute;
   left: 0;
   top: 400;
 }
 
 .stuff {
-  background: blue;
+  background: rgb(33, 133, 163);
   color: white;
 }
 
 #third {
-  background: green;
+  background: rgb(8, 109, 8);
   color: white;
 }
 
 body {
-  background-color: burlywood;
+  background-color:black);
 }

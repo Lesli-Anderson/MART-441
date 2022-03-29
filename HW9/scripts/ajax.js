@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $("button").click(function () {
-    $("#bikeInformation").load("data/bikeInfo.txt", fadeText);
+    $("#travelInformation").load("data/travelInfo.txt", fadeText);
   });
 });
 
 function fadeText() {
-  $("#bikeInformation").fadeOut("slow").fadeIn("slow");
+  $("#travelInformation").fadeOut("slow").fadeIn("slow");
 }

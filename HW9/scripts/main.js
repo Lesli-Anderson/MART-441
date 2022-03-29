@@ -20,7 +20,15 @@ function showTravelInfo() {
       travel.airport +
       "<br>Code:" +
       travel.code +
-      "<br>Name:" +
-      travel.code.name +
+      "<br>Time:" +
+      travel.code.time +
+      "<br>Lable:" +
+      travel.code.label +
+      "<br>Month:" +
+      travel.code.month +
+      "<br>Month Name:" +
+      travel.code.monthName +
+      "<br>Year:" +
+      travel.code.year +
   );
 }

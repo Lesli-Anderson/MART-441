@@ -1,8 +1,8 @@
-let bike = {
-  manufacturer: "Santa Cruz",
-  model: "5010",
-  owner: {
-    firstName: "Bob",
+let travel = {
+  code: "LAS",
+  airport: "Las Vegas",
+  Time: {
+    Label: "Bob",
     lastName: "Jones",
   },
   sizes: ["small", "medium", "large", "x-large"],
@@ -10,14 +10,14 @@ let bike = {
 
 $(function () {
   $("button").click(function () {
-    showBikeInfo();
+    showTravelInfo();
   });
 });
 
-function showBikeInfo() {
-  $("#bikeInformation").html(
+function showTravelInfo() {
+  $("#travelInformation").html(
     "Manufacturer: " +
-      bike.manufacturer +
+      travel.manufacturer +
       "<br>Model:" +
       bike.model +
       "<br>First Name:" +

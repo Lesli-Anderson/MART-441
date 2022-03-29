@@ -2,7 +2,7 @@
 	<airport>Las Vegas</airport>
 	<code>LAS</code>
 	<name>Las Vegas, NV: McCarran International</name>
-	<time></time>
+	<time>Flight Date</time>
     <label>2016/01"</label>
     <month>1</month>
     <month name>January</month name>

@@ -1,24 +1,16 @@
 $(document).ready(function () {
   $("button").click(function () {
-    $("#bikeInformation").load("data/bike.json", function (responseText) {
-      var bike = JSON.parse(responseText);
-      $("#bikeInformation").html(
-        "Manufacturer: " +
-          bike.manufacturer +
-          "<br>Model:" +
-          bike.model +
+    $("#travelInformation").load("data/travel.json", function (responseText) {
+      var travel = JSON.parse(responseText);
+      $("#travelInformation").html(
+        "Airport: " +
+          travel.airport +
+          "<br>Code:" +
+          travel.code +
           "<br>First Name:" +
-          bike.owner.firstName +
-          "<br>Last Name:" +
-          bike.owner.lastName +
-          "<br>Sizes Available:<br>" +
-          bike.sizes[0] +
-          "<br>" +
-          bike.sizes[1] +
-          "<br>" +
-          bike.sizes[2] +
-          "<br>" +
-          bike.sizes[3]
+          travel.name.time +
+        
+         
       );
     });
   });
@@ -26,6 +18,6 @@ $(document).ready(function () {
 
 /* function fadeText()
 {
-    $("#bikeInformation").fadeOut("slow").fadeIn("slow");
+    $("#travelInformation").fadeOut("slow").fadeIn("slow");
 }
 */

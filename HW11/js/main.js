@@ -7,7 +7,7 @@ var y2 = 100;
 var square1;
 var square2;
 
-// need to create the squares before we draw them
+// need to create the squares
 createSquares();
 // display the squares on the basic canvas
 drawSquare();
@@ -15,20 +15,20 @@ drawSquare();
 // this timer will move the second square around
 setInterval(moveGreenSquare, 5000);
 
-// this function creates new instances of squares
+// creates new instances of squares
 function createSquares() {
   square1 = new Square(x, y, 20, 20, "blue");
   square2 = new Square(x2, y2, 50, 50, "green");
 }
 
-// this function will randomly move the second square around the canvas
+// moves the second square around the canvas
 function moveGreenSquare() {
   square2.setX(Math.floor(Math.random() * canvas.width));
   square2.setY(Math.floor(Math.random() * canvas.height));
   drawSquare();
 }
 
-// this function just draws the squares to the canvas in their respective locations
+// this function just draws the squares to the canvas
 function drawSquare() {
   ctx.clearRect(0, 0, 800, 600);
   ctx.fillStyle = square1.theColor;
@@ -44,7 +44,7 @@ $(document).ready(function () {
   });
 });
 
-// this function checks which key was pressed
+// checks which key was pressed
 function getKey(event) {
   // only checking collision when a key is pressed
   var didCollide = hasCollided(square1, square2);
@@ -77,7 +77,7 @@ function getKey(event) {
   } else if (actualLetter == "a") {
     moveLeft();
   }
-  // don't forget to draw the squares again
+  // draw the squares again
   drawSquare();
 }
 

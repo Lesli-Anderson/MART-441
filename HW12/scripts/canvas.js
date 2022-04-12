@@ -6,7 +6,7 @@ var square1, square2;
 var direction;
 var questions;
 var squareArray = [];
-var lives = 3;
+var lives = 5;
 $(document).ready(function () {
   setup();
 
@@ -19,8 +19,8 @@ function setup() {
   canvas = document.getElementById("myCanvas");
   ctx = canvas.getContext("2d");
 
-  square1 = new Square(100, 100, 50, 50, "#620C3C");
-  square2 = new Square(400, 400, 100, 100, "#8C7E86");
+  square1 = new Square(100, 100, 50, 50, "#520c62");
+  square2 = new Square(500, 400, 100, 100, "#41736a");
   $.getJSON("data/information.json", function (data) {
     for (var i = 0; i < data.squares.length; i++) {
       squareArray.push(

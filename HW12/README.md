@@ -1,3 +1,3 @@
 I am really trying to take my time to understand this week.
 
-I find Json very confusing still.
+I find this very confusing still.

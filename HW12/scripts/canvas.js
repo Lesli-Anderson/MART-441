@@ -19,7 +19,6 @@ function setup() {
   canvas = document.getElementById("myCanvas");
   ctx = canvas.getContext("2d");
 
-  // create two objects
   square1 = new Square(100, 100, 50, 50, "#620C3C");
   square2 = new Square(400, 400, 100, 100, "#8C7E86");
   $.getJSON("data/information.json", function (data) {
@@ -64,8 +63,6 @@ function getKey(event) {
     if (test2 == true) {
       break;
     }
-
-    //console.log(test2);
   }
   if (test || test2) {
     lives--;

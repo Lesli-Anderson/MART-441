@@ -1,4 +1,6 @@
-I really enjoyed this week. I found the pace and video parts to be very helpful for my understanding. I tried to work with a walking piece of cake but it wouldn't display correctly. I also tried to use a cupcake "cake" as the bomb. Every time I have tried to manipulate this outside of what was done through the tutorials I have made errors and I get a glowing green box.
+I really enjoyed this week. I found the pace and video parts to be very helpful for my understanding.
+
+I tried to work with a walking piece of cake but it wouldn't display correctly. I also tried to use a cupcake "cake" as the bomb, which I was able to get to work correctly.
 
 I am excited to play with this more. I am confused as to why the changed files display differently.
 

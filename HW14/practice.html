@@ -13,7 +13,7 @@
     </style>
   </head>
   <body>
-    <script src="libs/three.min.js"></script>
+    <script src="https://montana-media-arts.github.io/441-WebTech-Spring2022-Examples/Week%2014/fonts/helvetiker_regular.typeface.json"></script>
     <script>
       var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(
@@ -41,7 +41,7 @@
           spinCamera();
           renderer.render(scene, camera);
         };
-        loadFont();
+        //  loadFont();
         render();
 
         //SETTINGS
@@ -65,9 +65,9 @@
         }
 
         function loadFont() {
-          var loader = new THREE.FontLoader();
+          constant loader = new THREE.FontLoader();
 
-          loader.load("fonts/helvetiker_regular.typeface.json", function (res) {
+          loader.load("https://montana-media-arts.github.io/441-WebTech-Spring2022-Examples/Week%2014/fonts/helvetiker_regular.typeface.json", function (res) {
             font = res;
             createText();
           });

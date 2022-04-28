@@ -150,8 +150,8 @@ function loadModel() {
 
 function animateModel() {
   requestAnimationFrame(animateModel);
-  modelObject.rotation.x += 0.05;
-  modelObject.rotation.y += 0.05;
+  modelObject.rotation.x += 0.03;
+  modelObject.rotation.y += 0.03;
 }
 
 /**
@@ -174,3 +174,4 @@ var game1 = createBox();
 loadModel();
 
 render();
+scene.background = new THREE.Color("purple");

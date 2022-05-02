@@ -1,18 +1,23 @@
 var fs = require("fs");
+var data = "";
 
-console.log("Going to delete directory /tmp/test");
-fs.rmdir("/tmp/test", function (err) {
-  if (err) {
-    return console.error(err);
-  }
-  console.log("Going to read directory /tmp");
+// Create a readable stream
+var readerStream = fs.createReadStream("input.txt");
 
-  fs.readdir("/tmp/", function (err, files) {
-    if (err) {
-      return console.error(err);
-    }
-    files.forEach(function (file) {
-      console.log(file);
-    });
-  });
+// Set the encoding to be utf8.
+readerStream.setEncoding("UTF8");
+
+// Handle stream events --> data, end, and error
+readerStream.on("data", function (chunk) {
+  data += chunk;
 });
+
+readerStream.on("end", function () {
+  console.log(data);
+});
+
+readerStream.on("error", function (err) {
+  console.log(err.stack);
+});
+
+console.log("Program Ended");

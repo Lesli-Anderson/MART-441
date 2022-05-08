@@ -35,6 +35,15 @@ var c = canvas.getContext("2d");
 // c.strokeStyle = "#cb3d6f";
 //c.stroke();
 //}
+var mouse = {
+  x: undefined,
+  y: undefined,
+};
+
+window.addEventListener("mousemove", function (event) {
+  mouse.x = event.x;
+  mouse.y = event.y;
+});
 
 function Circle(x, y, dx, dy, radius) {
   this.x = x;
@@ -59,6 +68,16 @@ function Circle(x, y, dx, dy, radius) {
     }
     this.x += this.dx;
     this.y += this.dy;
+
+    //interactivity
+    if (
+      mouse.x - this.x < 50 &&
+      mouse.x - this.x > -50 &&
+      mouse.y - this.y < 50 &&
+      mouse.y - this.y > -50
+    ) {
+      this.radius += 1;
+    }
 
     this.draw();
   };
